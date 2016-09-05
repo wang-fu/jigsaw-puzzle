@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script src="main.min.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="fixedWidth"
+         data-frame-rate="60"
+         data-content-width="480"
+         data-content-height="800"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+    <input type="hidden" id="userInfo" data-openId = "xjoasijdo23424234",data-activityId="33456"/>
+    <script>
+        egret.runEgret({renderMode:"canvas"});
+    </script>
+
+    <!--
+    	规则，奖品，享等弹窗层
+    -->
+    <!--分享-->
+    <div class="wf_share">
+    	<div class="share_img">
+    		<img src = 'resource/assets/share.png'/>
+    	</div>
+    	<p>
+    		点击右上角
+    	</p>
+    	<P>
+    		让大家也来试一试吧
+    	</P>
+    </div>
+    <!--活动规则-->
+    <div class="wf_rules">
+    	<img class="close_btn" src="resource/assets/close.png"/>
+    	<h2 class="rule_title">
+    		活动规则
+    	</h2>
+    	<h3>
+    		1、奖品设置
+    	</h3>
+    	<ul class="gift">
+    		<li>1等奖： 可爱大熊猫玩偶。 （10名）</li>
+    		<li>2等奖： 动物园通票。 （100名）</li>
+    	</ul>
+    	<h3>
+    		2、活动细则
+    	</h3>
+    	<ul>
+    		<li>活动时间： 5.7至5.10  。</li>
+    		<li>在30秒内完成所有拼图关卡，即可获得一次抽奖机会。奖品有限，先到先得。</li>
+    		<li>中奖用户须马上完成领奖，逾期或领奖时信息填写错误或不完整均视为放弃获奖资格，仅限中奖者本人领奖。作弊用户直接取消获奖资格，我们保留追求其责任的权利。
+    			(模版演示，纯属体验，不予兑奖！)</li>
+    	</ul>
+    </div>
+    <!--提交信息-->
+    <div class="wf_submit">
+	    <a class="close_input">关闭</a>
+	    <p>请填写以下资料：(模版演示，纯属体验，不予兑奖！)</p>
+    	<input type="text" name="user_name" placeholder="姓名">
+    	<input type="text" name="user_tel" placeholder="手机号码" maxlength="11">
+    	<input type="text" name="user_mail" placeholder="邮寄地址">
+
+    	<div class="submit_data">
+    		<a onclick="saveuserinfo();">提 交</a>
+    	</div>
+    </div>
+
+    <!--闯关失败-->
+
+
+</body>
+</html>

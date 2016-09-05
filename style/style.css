@@ -1,0 +1,166 @@
+html, body {
+    -ms-touch-action: none;
+    background: #888888;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    height: 100%;
+}
+/*.wf_gameover{*/
+    /*background-color: #888888;*/
+    /*background-color: rgba(136, 136, 136, 0.69);*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*position: absolute;*/
+    /*z-index: 99999;*/
+    /*top: 0px;*/
+    /*left: 0px;*/
+    /*display: none;*/
+/*}*/
+
+/*
+用户分享
+*/
+.wf_share{
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 10px;
+    line-height: 30px;
+    background: rgba(0,0,0,.75);
+    color: #fff;
+    box-sizing: border-box;
+}
+.wf_share .share_img:after{
+    content:"";
+    display: block;
+    height:100%;
+    clear:both;
+}
+.wf_share img{
+    float: right;
+    height: 40px;
+}
+.wf_share p{
+    text-align: right;
+    margin: 0px;
+    font-family: '微软雅黑';
+    line-height: 1.5;
+}
+/*
+活动规则
+*/
+.wf_rules .rule_title{
+    text-align:center;
+    background-image:url(../resource/assets/head.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 47px;
+    clear:both;
+}
+.wf_rules {
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding: 30px 15px;
+    line-height: 30px;
+    background: rgba(0,0,0,.75);
+    color: #fff;
+    box-sizing: border-box;
+}
+.wf_rules ul li{
+    font-size: 14px;
+    font-family: Arial,"黑体";
+    color: #fff;
+}
+.wf_rules .close_btn{
+    float: right;
+    width: 40px;
+}
+/*
+提交框
+*/
+.wf_submit{
+    display:none;
+    position: fixed;
+    top: 20%;
+    left: 0;
+    z-index: 10016;
+    width: 90%;
+    margin: 0 5%;
+    padding: 40px 0 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    color: #333;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+.wf_submit p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Arial,"黑体";
+    color:#000;
+}
+.wf_submit .close_input{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 7;
+    border-radius: 0 5px 0 50px;
+    height: 20px;
+    width: 30px;
+    padding: 8px 5px 17px 10px;
+    line-height: 20px;
+    text-align: right;
+    font-size: 12px;
+    background: #fc0;
+    color: #fff;
+}
+.wf_submit input{
+    display: block;
+    width: 80%;
+    height: 30px;
+    padding: 0 5px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: Arial,"黑体";
+    color: #333;
+    background: #fff;
+}
+
+.wf_submit .submit_data{
+    padding: 15px 0;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+}
+.wf_submit .submit_data a{
+    display: inline-block;
+    min-width: 60px;
+    height: 34px;
+    padding: 0 15px;
+    margin: 0 8px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    background-color: #fc0;
+    box-shadow: 0 0 0 2px #fc0;
+}

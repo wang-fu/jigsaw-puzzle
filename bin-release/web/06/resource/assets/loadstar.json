@@ -1,0 +1,195 @@
+{
+    "file": "loadstar.png",
+    "frames": {
+        "ls0": {
+            "x": 0,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls1": {
+            "x": 93,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls2": {
+            "x": 186,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls3": {
+            "x": 279,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls4": {
+            "x": 372,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls5": {
+            "x": 465,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls6": {
+            "x": 558,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls7": {
+            "x": 651,
+            "y": 0,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls8": {
+            "x": 0,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls9": {
+            "x": 93,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls10": {
+            "x": 186,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls11": {
+            "x": 279,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls12": {
+            "x": 372,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls13": {
+            "x": 465,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls14": {
+            "x": 558,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls15": {
+            "x": 651,
+            "y": 160,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls16": {
+            "x": 0,
+            "y": 320,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls17": {
+            "x": 186,
+            "y": 320,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        },
+        "ls18": {
+            "x": 279,
+            "y": 320,
+            "w": 93,
+            "h": 160,
+            "offX":0,
+            "offY":0,
+            "sourceW":93,
+            "sourceH":160
+        }
+    }
+}

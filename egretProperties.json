@@ -1,0 +1,26 @@
+{
+	"native": {
+		"path_ignore": [],
+		"android_path": "combinePic"
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "3.0.6",
+	"modules": [
+		{
+			"name": "egret"
+		},
+		{
+			"name": "game"
+		},
+		{
+			"name": "tween"
+		},
+		{
+			"name": "res"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"groups":[{
+			"keys":"loadstar_json",
+			"name":"preloadsload"
+		}],
+	"resources":[
+			{
+			"name":"loadstar_json",
+			"subkeys":"ls0,ls1,ls10,ls11,ls12,ls13,ls14,ls15,ls16,ls17,ls18,ls2,ls3,ls4,ls5,ls6,ls7,ls8,ls9",
+			"type":"sheet",
+			"url":"assets/loadstar.json"
+		}
+	]
+}
